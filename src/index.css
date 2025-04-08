@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
+  font-family: monospace;
   color: #fff;
 }
 
@@ -14,6 +14,8 @@ body {
 
 body {
   background-color: #111;
+  padding: 50px;
+  text-align: center;
 }
 
 .box {
@@ -29,4 +31,13 @@ body {
   background-color: lightskyblue;
   border-radius: 50%;
   border: 3px solid #fff;
+}
+
+.container {
+  background-color: cadetblue;
+  width: 100%;
+  height: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
